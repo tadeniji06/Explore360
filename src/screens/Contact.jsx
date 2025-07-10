@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { socials } from "../utils/data";
 import { Icon } from "@iconify/react";
-
+import Ready from "../components/home/Ready";
 const Contact = () => {
 	return (
 		<section className='bg-gray-50 py-20 px-6'>
@@ -135,6 +135,7 @@ const Contact = () => {
 					</button>
 				</motion.form>
 			</div>
+			<Ready />
 		</section>
 	);
 };

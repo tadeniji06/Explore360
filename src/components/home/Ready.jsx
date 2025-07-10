@@ -7,7 +7,7 @@ const Ready = () => {
 			whileInView={{ opacity: 1, y: 0 }}
 			viewport={{ once: true, amount: 0.3 }}
 			transition={{ duration: 0.8, ease: "easeOut" }}
-			className='bg-light-brown mb-6 mt-6 text-white rounded-2xl max-w-[1000px] mx-auto py-12 px-4 flex justify-center items-center'
+			className='bg-light-brown mb-6 mt-16 text-white rounded-2xl max-w-[1000px] mx-auto py-12 px-4 flex justify-center items-center'
 		>
 			<motion.div
 				initial='hidden'
