@@ -18,19 +18,19 @@ const TourHero = () => {
 							Upcoming Tour
 						</div>
 
-						{/* Main heading - KENYA */}
+						{/* Main heading - */}
 						<h1 className='text-5xl md:text-7xl font-bold tracking-wider'>
-							KENYA
+							SOUTH AFRICA
 						</h1>
 
 						{/* Subtitle */}
 						<p className='text-lg md:text-xl font-medium'>
-							Explore360 heads to Kenya in September
+							Explore360 heads to SouthAfrica in October
 						</p>
 
 						{/* Date */}
 						<p className='text-base md:text-lg font-medium opacity-90'>
-							September 15 - 30, 2025
+							October 1 - 15, 2025
 						</p>
 
 						{/* Get Ticket Button */}

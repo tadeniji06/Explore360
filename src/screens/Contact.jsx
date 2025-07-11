@@ -29,10 +29,19 @@ const Contact = () => {
 						<p>
 							📞 Phone:{" "}
 							<a
-								href='tel:+2349012345678'
+								href='tel:+2348064968725'
 								className='text-light-brown hover:underline'
 							>
-								+234 901 234 5678
+								+2348064968725
+							</a>
+						</p>
+						<p>
+							📞 Phone:{" "}
+							<a
+								href='tel:+27656946477'
+								className='text-light-brown hover:underline'
+							>
+								+27656946477
 							</a>
 						</p>
 						<p>

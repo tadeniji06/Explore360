@@ -118,7 +118,7 @@ const UpcomingTours = () => {
 									clipRule='evenodd'
 								/>
 							</svg>
-							<span>September 15 - 30, 2025</span>
+							<span>October 16 - 30, 2025</span>
 						</div>
 
 						{/* Tags */}
@@ -196,7 +196,7 @@ const UpcomingTours = () => {
 									clipRule='evenodd'
 								/>
 							</svg>
-							<span>October 1 - 16, 2025</span>
+							<span>October 1 - 15, 2025</span>
 						</div>
 
 						{/* Tags */}

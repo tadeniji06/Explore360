@@ -1,11 +1,11 @@
-import { abh } from "../../assets";
+import { abh, logo, why } from "../../assets";
 
 const AboutHero = () => {
 	return (
 		<div className='relative'>
 			<div
 				className='bg-cover bg-center bg-no-repeat w-full h-[400px] md:h-[600px] relative transition-opacity duration-1000 ease-in-out'
-				style={{ backgroundImage: `url(${abh})` }}
+				style={{ backgroundImage: `url(${why})` }}
 			>
 				{/* Dark overlay */}
 				<div className='absolute inset-0 bg-black/60' />
