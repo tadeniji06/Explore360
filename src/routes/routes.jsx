@@ -9,6 +9,8 @@ import Tour from "../screens/Tour";
 import Services from "../screens/Services";
 import Contact from "../screens/Contact";
 import NotFound from "../screens/NotFound";
+import Blog from "../screens/Blog";
+import ViewBlog from "../components/ViewBlog";
 
 const router = createBrowserRouter([
 	{
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
 			{
 				path: "/contact",
 				element: <Contact />,
+			},
+			{
+				path: "/blog",
+				element: <Blog />,
+			},
+			{
+				path: "/blog/:slug",
+				element: <ViewBlog />,
 			},
 		],
 	},
