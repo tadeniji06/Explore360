@@ -16,7 +16,9 @@ import tour2 from "./tour.jpg";
 import kenA from "./kenA.jpg";
 import southA from "./southA.jpg";
 import spot from "./spot.jpg";
-import spotify from './spotify.png';
+import spotify from "./spotify.png";
+import youtube from "./yt.png";
+import video from "./showcaseAfrica.mp4";
 export {
 	logo,
 	heroImage,
@@ -37,4 +39,6 @@ export {
 	southA,
 	spot,
 	spotify,
+	youtube,
+	video,
 };

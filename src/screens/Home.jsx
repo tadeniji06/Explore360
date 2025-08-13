@@ -8,8 +8,11 @@ const Home = () => {
 		<>
 			<Hero />
 			<HomeAbout />
+			<hr className='border border-gray-700' />
 			<Explore />
+			<hr className='border border-gray-700' />
 			<Consult />
+			<hr className='border border-gray-700' />
 			<Chronicles />
 		</>
 	);
