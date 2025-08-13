@@ -47,23 +47,23 @@ const Spotlight = () => {
 
 	const scheduleItems = [
 		{
-			date: "September 15th - 19th, 2025",
+			date: "October 15th - 19th, 2025",
 			title: "Branch Show: regional agric and trade expo",
 			icon: "mdi:office-building",
 		},
 		{
-			date: "September 20th - 24th, 2025",
+			date: "October 20th - 24th, 2025",
 			title:
 				"Nairobi International Trade Fair - massive business opportunity",
 			icon: "mdi:store",
 		},
 		{
-			date: "September 24th - 28th, 2025",
+			date: "October 24th - 28th, 2025",
 			title: "Kenya Branch Show - events and local innovations",
 			icon: "mdi:factory",
 		},
 		{
-			date: "September 29th - 30th, 2025",
+			date: "October 29th - 30th, 2025",
 			title:
 				"Africa TravelTech Summit & Expo - cutting edge travel tech showcase",
 			icon: "mdi:airplane",
@@ -112,7 +112,7 @@ const Spotlight = () => {
 								className='text-lg md:text-xl opacity-90'
 								variants={itemVariants}
 							>
-								September 15th - 30th, 2025
+								October 15th - 30th, 2025
 							</motion.p>
 						</div>
 

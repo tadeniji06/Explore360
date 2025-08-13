@@ -63,19 +63,19 @@ const Explore = () => {
 						variants={itemVariants}
 						className='text-3xl md:text-4xl font-bold text-light-brown mb-4'
 					>
-						Explore Our Hot Market Tours
+						Explore Our Upcoming Tours
 					</motion.h2>
 					<motion.p
 						variants={itemVariants}
 						className='text-gray-600 text-lg max-w-4xl mx-auto leading-relaxed'
 					>
-						Explore360's Tour 1.0 combines strategic business visits
+						Explore360 Business Tours combine strategic business visits
 						with immersive cultural experiences, giving you unmatched
 						insights into Africa's leading markets while enjoying its
 						rich heritage and vibrant lifestyles.{" "}
-						<span className='text-light-brown font-semibold cursor-pointer hover:underline'>
+						{/* <span className='text-light-brown font-semibold cursor-pointer hover:underline'>
 							See All Tours
-						</span>
+						</span> */}
 					</motion.p>
 				</motion.div>
 

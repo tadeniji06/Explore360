@@ -1,9 +1,15 @@
 import { motion } from "framer-motion";
 import { afri } from "../../assets";
+import { Link } from "react-router-dom";
 
 const Chronicles = () => {
 	return (
 		<section className='py-16 px-4 bg-white'>
+			<div className='flex items-center justify-center'>
+				<h2 className='text-3xl font-semibold mb-2 text'>
+					Read Our African Business Chronicles Magazine
+				</h2>
+			</div>
 			<div className='max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-12'>
 				{/* Africa Image */}
 				<motion.div
@@ -28,11 +34,12 @@ const Chronicles = () => {
 					viewport={{ once: true }}
 					className='bg-gradient-to-br from-[#D24726] to-[#B63D1E] text-white rounded-2xl p-8 md:p-10 w-full max-w-md shadow-xl'
 				>
-					<h2 className='text-lg font-semibold mb-2'>
-						Explore360 Chronicles Snippet
-					</h2>
+					{/* <h2 className='text-lg font-semibold mb-2'>
+						Explore360 <br />
+						Business Chronicles
+					</h2> */}
 					<p className='text-sm leading-relaxed text-white/90 mb-6'>
-						Stay informed with Explore360 Chronicles, our exclusive
+						Stay informed with African Business Chronicles, our exclusive
 						content series featuring insights, stories, and interviews
 						on doing business and exploring Africa. Learn from
 						industry leaders, uncover emerging opportunities, and be
@@ -46,7 +53,7 @@ const Chronicles = () => {
 						whileTap={{ scale: 0.95 }}
 						className='bg-white text-[#B63D1E] font-semibold px-6 py-3 rounded-full transition duration-300'
 					>
-						Read Our Chronicles
+						<Link to='/blog'> Read Our Chronicles</Link>
 					</motion.button>
 				</motion.div>
 			</div>

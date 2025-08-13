@@ -22,12 +22,12 @@ const ServiceHero = () => {
 						Our Services
 					</h1>
 					<p className='text-gray-700 text-base md:text-lg leading-relaxed max-w-2xl'>
-						Strategic solutions to help you expand and thrive across
-						Africa. Explore360 provides tailored business expansion
-						consulting services in Africa, supporting your
-						organisation with actionable insights, market entry
-						strategies, regulatory guidance, and stakeholder
-						connections.
+						Our Strategic solutions to help you start, grow, expand
+						and thrive across Africa. Explore360 consulting service
+						arm provides tailored business growth and expansion
+						services in Africa, supporting your organisation with
+						actionable insights, market entry strategies, regulatory
+						guidance, and stakeholder connections.
 					</p>
 				</motion.div>
 

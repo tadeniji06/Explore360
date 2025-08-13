@@ -18,9 +18,9 @@ const Header = () => {
 
 	return (
 		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg '>
-			<div className='flex items-center justify-between px-4 py-3 max-w-7xl mx-auto lg:px-6'>
+			<div className='flex items-center justify-between px-4 py-3 max-w-8xl mx-auto lg:px-6'>
 				{/* Logo */}
-				<div className='w-[130px] h-[60px] cursor-pointer flex-shrink-0'>
+				<div className='w-[220px] h-[120px] cursor-pointer flex-shrink-0'>
 					<Link to='/' onClick={closeMobileMenu}>
 						<img
 							className='w-full h-full object-contain'
@@ -48,12 +48,12 @@ const Header = () => {
 
 				{/* Desktop CTA Button */}
 				<div className='hidden lg:block'>
-					<Link to='/'>
+					{/* <Link to='/'>
 						<Button
 							className='py-3 px-6 xl:py-4 xl:px-8 bg-white text-primary-brown hover:bg-light-brown transition-colors duration-200'
 							title='Book Consultation'
 						/>
-					</Link>
+					</Link> */}
 				</div>
 
 				{/* Mobile Menu Button */}

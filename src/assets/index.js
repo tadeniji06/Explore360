@@ -16,6 +16,7 @@ import tour2 from "./tour.jpg";
 import kenA from "./kenA.jpg";
 import southA from "./southA.jpg";
 import spot from "./spot.jpg";
+import spotify from './spotify.png';
 export {
 	logo,
 	heroImage,
@@ -35,4 +36,5 @@ export {
 	kenA,
 	southA,
 	spot,
+	spotify,
 };

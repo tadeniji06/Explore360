@@ -19,9 +19,9 @@ const ServiceBody = () => {
 			desc: "We facilitate partnerships and collaborations with local businesses, government agencies, and industry stakeholders to enhance your market entry strategy and foster growth.",
 		},
 		{
-			name: "Tourism and Hospitality Consulting",
-			image: tour,
-			desc: "We provide specialized consulting services for the tourism and hospitality sector, helping businesses optimize operations, enhance guest experiences, and drive revenue growth.",
+			name: "Market Research",
+			image: mkt,
+			desc: "We conduct comprehensive market research to help you understand your target audience, industry trends, and competitive landscape, enabling informed decision-making.",
 		},
 		{
 			name: "Market Testing",
@@ -95,7 +95,7 @@ const ServiceBody = () => {
 						variants={itemVariants}
 						className='text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight'
 					>
-						Our Business Expansion{" "}
+						Our Business Growth And Expansion{" "}
 						<span className='text-light-brown'>
 							Consulting Services
 						</span>
@@ -155,7 +155,7 @@ const ServiceBody = () => {
 								</motion.p>
 
 								{/* Learn More Button */}
-								<motion.button
+								{/* <motion.button
 									whileHover={{
 										scale: 1.05,
 										boxShadow: "0 6px 20px rgba(0, 0, 0, 0.1)",
@@ -177,7 +177,7 @@ const ServiceBody = () => {
 											d='M17 8l4 4m0 0l-4 4m4-4H3'
 										/>
 									</motion.svg>
-								</motion.button>
+								</motion.button> */}
 							</div>
 						</motion.div>
 					))}
@@ -196,7 +196,7 @@ const ServiceBody = () => {
 						className='bg-gray-50 rounded-2xl p-8 md:p-12'
 					>
 						<h3 className='text-2xl md:text-3xl font-bold text-gray-900 mb-4'>
-							Ready to Expand Your Business?
+							Ready to Start, Grow And Expand Your Business?
 						</h3>
 						<p className='text-gray-600 text-lg mb-8 max-w-2xl mx-auto'>
 							Let our expert team guide you through every step of your

@@ -25,12 +25,12 @@ const TourHero = () => {
 
 						{/* Subtitle */}
 						<p className='text-lg md:text-xl font-medium'>
-							Explore360 heads to SouthAfrica in October
+							Explore360 heads to SouthAfrica in November
 						</p>
 
 						{/* Date */}
 						<p className='text-base md:text-lg font-medium opacity-90'>
-							October 1 - 15, 2025
+							November 15 - 30, 2025
 						</p>
 
 						{/* Get Ticket Button */}

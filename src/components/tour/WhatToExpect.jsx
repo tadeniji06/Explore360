@@ -84,7 +84,7 @@ const WhatToExpect = () => {
 						What To Expect
 					</h2>
 					<p className='text-gray-600 text-lg leading-relaxed'>
-						Join an Explore360 tour for a seamless blend of business
+						Join the Explore360 tour for a seamless blend of business
 						insights, cultural immersion, and unforgettable
 						experiences
 					</p>

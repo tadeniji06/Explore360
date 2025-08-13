@@ -79,7 +79,7 @@ const HomeAbout = () => {
 						className='text-gray-600 text-lg leading-relaxed'
 					>
 						At Explore360, we specialize in guiding businesses through
-						successful expansion into African markets. With deep
+						successful startup, growth and expansion in African markets. With deep
 						expertise in market research, business development, and
 						policy advisory, we provide end-to-end solutions that help
 						companies navigate new territories with confidence.
@@ -92,8 +92,8 @@ const HomeAbout = () => {
 						From stakeholder engagement to lead generation and
 						strategic partnerships, we ensure our clients are equipped
 						with local insights and global standards. Our services
-						include coordinating business tours, trade missions, and
-						regulatory compliance support, all designed to unlock
+						include coordinating business tours, trade missions, business education, and
+						business consulting support, all designed to unlock
 						growth, reduce risk, and drive measurable impact across
 						emerging markets.
 					</motion.p>
@@ -107,7 +107,7 @@ const HomeAbout = () => {
 							whileTap={{ scale: 0.95 }}
 							className='bg-primary-brown hover:bg-primary-brown/90 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl'
 						>
-							Read More
+							{/* <Link>Read More</Link> */}
 						</motion.button>
 					</motion.div>
 				</motion.div>
